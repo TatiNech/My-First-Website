@@ -1,0 +1,145 @@
+@font-face {
+	font-family: muli;
+	src: url(../fonts/Muli-Light.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+div#wrap {
+	width: 1280px;
+	margin: 0 auto;
+	min-height: 100px;
+	
+}
+
+div#top {
+	height: 70px;
+	background: #352d2f;	
+	border-bottom: solid 1px #aaa;
+}
+
+div#sage {
+	background: url(../img/sage.png) no-repeat;
+	width: 300px;
+	margin-left: 50px;
+	height: 70px;
+	float: left;
+}
+
+div#menu {
+	height: 70px;
+	width: 720px;
+	float: left;
+	font: normal 18px 'muli';
+}
+
+div#menu ul {
+	list-style: none;
+	margin: 0;
+}	
+
+div#menu ul li {
+	float: left;
+	margin-left: 40px;
+	color: #aaa;
+	height: 48px;
+	padding-top: 18px;
+}
+
+div#menu ul li:hover {
+	color: white;
+	border-bottom: solid 4px white;
+
+}
+
+div#lang {
+	padding-top: 18px;
+	float: left;
+}
+
+div#lang select {
+	background: #352d2f;
+	color: #aaa;
+	border: none;
+	font: normal 18px 'muli';
+}
+
+div#loupe {
+	height: 40px;
+	width: 70px;
+	background: url(../img/loupe.png) no-repeat 12px 9px;
+	border-left: solid 1px #aaa;
+	float: left;
+	margin-top: 10px;
+}
+
+div#let_us {
+	background: #352d2f;
+	height: 1000px;
+}
+
+div.floor {
+	clear: both;
+	float: none;
+}
+
+div#let_us_top_margin {
+	height: 160px;
+}
+
+h1 {
+	margin: 0 auto;
+	color: #aaa;
+	width: 680px;
+	text-align: center;
+	font: normal 56px 'muli';
+}
+
+div#watch_btn {
+	width: 230px;
+	height: 50px;
+	margin: 20px auto;
+	background: url(../img/watch_btn.png) no-repeat;
+}
+
+div#discov_btn {
+	width: 130px;
+	height: 76px;
+	margin: 0px auto;
+	margin-top: 450px;
+	background: url(../img/discov_btn.png) no-repeat;
+}
+
+div#big {
+	background: #352d2f;	
+}
+
+div#big-top {
+	min-height: 400px;	
+}
+
+div#big-bottom {
+	min-height: 50px;
+}
+
+div#big-top-left,
+div#big-top-right {
+	float: left;
+	height: 400px;
+	width: 50%;
+}
+
+div#big-top-left {
+	background: #faa;
+}
+
+div#big-top-right-top,
+div#big-top-right-bottom {
+	height: 200px;
+}
+
+div#big-top-right-top {
+	background: #453d3f;	
+}
