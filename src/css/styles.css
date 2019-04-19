@@ -7,20 +7,19 @@ body {
 	margin: 0;
 }
 
-div#wrap {
+div.wrap {
 	width: 1280px;
 	margin: 0 auto;
-	min-height: 100px;
 	
 }
 
-div#top {
+div.top {
 	height: 70px;
 	background: #352d2f;	
 	border-bottom: solid 1px #aaa;
 }
 
-div#sage {
+div.sage {
 	background: url(../img/sage.png) no-repeat;
 	width: 300px;
 	margin-left: 50px;
@@ -28,19 +27,19 @@ div#sage {
 	float: left;
 }
 
-div#menu {
+div.menu {
 	height: 70px;
 	width: 720px;
 	float: left;
 	font: normal 18px 'muli';
 }
 
-div#menu ul {
+div.menu ul {
 	list-style: none;
 	margin: 0;
 }	
 
-div#menu ul li {
+div.menu ul li {
 	float: left;
 	margin-left: 40px;
 	color: #aaa;
@@ -48,25 +47,25 @@ div#menu ul li {
 	padding-top: 18px;
 }
 
-div#menu ul li:hover {
+div.menu ul li:hover {
 	color: white;
 	border-bottom: solid 4px white;
 
 }
 
-div#lang {
+div.lang {
 	padding-top: 18px;
 	float: left;
 }
 
-div#lang select {
+div.lang select {
 	background: #352d2f;
 	color: #aaa;
 	border: none;
 	font: normal 18px 'muli';
 }
 
-div#loupe {
+div.loupe {
 	height: 40px;
 	width: 70px;
 	background: url(../img/loupe.png) no-repeat 12px 9px;
@@ -75,17 +74,19 @@ div#loupe {
 	margin-top: 10px;
 }
 
-div#let_us {
+div.let_us {
 	background: #352d2f;
 	height: 1000px;
+	text-align: center;
 }
 
 div.floor {
 	clear: both;
 	float: none;
+	height: 0.001px;
 }
 
-div#let_us_top_margin {
+div.let_us_top_margin {
 	height: 160px;
 }
 
@@ -97,14 +98,19 @@ h1 {
 	font: normal 56px 'muli';
 }
 
-div#watch_btn {
-	width: 230px;
+button.watch {
+	width: 210px;
 	height: 50px;
 	margin: 20px auto;
-	background: url(../img/watch_btn.png) no-repeat;
+	background: url(../img/watch_btn.png) no-repeat 0 2px;	
+	border: solid 1px #aaa;
+	font: normal 16px 'muli';
+	color: white;
+	padding-left: 38px;
+	cursor: pointer;
 }
 
-div#discov_btn {
+div.discov_btn {
 	width: 130px;
 	height: 76px;
 	margin: 0px auto;
@@ -112,34 +118,164 @@ div#discov_btn {
 	background: url(../img/discov_btn.png) no-repeat;
 }
 
-div#big {
+div.big {
 	background: #352d2f;	
 }
 
-div#big-top {
-	min-height: 400px;	
+div.big-top {
+
 }
 
-div#big-bottom {
-	min-height: 50px;
+div.big-bottom {
+
 }
 
-div#big-top-left,
-div#big-top-right {
+div.big-top-left,
+div.big-top-right {
 	float: left;
-	height: 400px;
+	height: 600px;
 	width: 50%;
 }
 
-div#big-top-left {
-	background: #faa;
+div.big-top-left {
+	background: #f63c3c;
 }
 
-div#big-top-right-top,
-div#big-top-right-bottom {
-	height: 200px;
+div.big-top-right-top,
+div.big-top-right-bottom {
+	height: 300px;
 }
 
-div#big-top-right-top {
+div.big-top-right-top {
 	background: #453d3f;	
 }
+
+div.explorer {
+	text-align: center;
+}
+
+div.explorer h3 {
+	font: normal 20px 'muli';
+	margin-top: 30px;
+}
+
+button.explorer {
+	width: 210px;
+	height: 50px;
+	margin: 0 auto 30px;
+	background: #f63c3c;	
+	border: none;
+	font: normal 16px 'muli';
+	color: white;
+	cursor: pointer;
+}
+
+div.big-top h4,
+div.big-top h2,
+div.big-top h5 {
+	font-family: 'muli';
+	color: white;
+	margin-left: 40px;
+}
+
+div.big-top-left h4 {
+	margin-top: 350px;
+	font-size: 12px;
+}
+
+div.big-top h5 {
+	font-size: 9px;
+}
+
+div.big-top-right h2 {
+	margin-top: 150px;
+}
+
+div.button_proj {
+	width: 184px;
+	height: 25px;
+	margin: 10px auto;
+	border-bottom: solid 3px #aaa;
+	color: #aaa;
+	font: normal 16px 'muli';
+}
+
+div.center {
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+	min-height: 400px;
+}
+
+
+div.duet-left,
+div.duet-right {
+	float: left;
+	width: 450px;
+	padding: 30px 50px 0 0;
+}
+
+div.icon1,
+div.icon2 {
+	width: 48px;
+	height: 48px;
+}
+
+div.icon1 {
+	background: url(../img/icon1.png) no-repeat;
+}
+
+div.icon2 {
+	background: url(../img/icon2.png) no-repeat;
+}
+
+div.duet h4,
+div.duet h5,
+div.solo h3,
+div.solo h5 {
+	font-family: 'muli';
+}
+
+div.duet h4 {
+	font-size: 12px;
+}
+
+div.duet h5,
+div.solo h5 {
+	font-size: 9px;
+}
+
+div.solo h3 {
+	font-size: 14px;
+}
+
+div.q1, div.q2,
+div.q3, div.q4 {
+	background: #444;
+	width: 220px;
+	margin-right: 39px;
+	float: left;
+	height: 100px;
+	font-family: 'muli';
+	color: black;
+	text-align: center;
+}
+
+div.q4 {
+	margin-right: 0;
+}
+
+
+
+div.grey {
+	background: grey;
+	float:left;
+	height: 600;
+	width: 1280px;
+}
+
+div.red {
+	background: red;
+}
+
+
