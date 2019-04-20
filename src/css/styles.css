@@ -1,6 +1,6 @@
 @font-face {
 	font-family: muli;
-	src: url(../fonts/Muli-Light.ttf);
+	src: url(..//fonts/Muli-Light.ttf);
 }
 
 body {
@@ -20,7 +20,7 @@ div.top {
 }
 
 div.sage {
-	background: url(../img/sage.png) no-repeat;
+	background: url(..//img/sage.png) no-repeat;
 	width: 300px;
 	margin-left: 50px;
 	height: 70px;
@@ -68,7 +68,7 @@ div.lang select {
 div.loupe {
 	height: 40px;
 	width: 70px;
-	background: url(../img/loupe.png) no-repeat 12px 9px;
+	background: url(..//img/loupe.png) no-repeat 12px 9px;
 	border-left: solid 1px #aaa;
 	float: left;
 	margin-top: 10px;
@@ -77,7 +77,8 @@ div.loupe {
 div.let_us {
 	background: #352d2f;
 	height: 1000px;
-	text-align: center;
+	text-align: center;	
+	text-transform: uppercase;
 }
 
 div.floor {
@@ -102,7 +103,7 @@ button.watch {
 	width: 210px;
 	height: 50px;
 	margin: 20px auto;
-	background: url(../img/watch_btn.png) no-repeat 0 2px;	
+	background: url(..//img/watch_btn.png) no-repeat 0 2px;	
 	border: solid 1px #aaa;
 	font: normal 16px 'muli';
 	color: white;
@@ -115,7 +116,7 @@ div.discov_btn {
 	height: 76px;
 	margin: 0px auto;
 	margin-top: 450px;
-	background: url(../img/discov_btn.png) no-repeat;
+	background: url(..//img/discov_btn.png) no-repeat;
 }
 
 div.big {
@@ -168,6 +169,7 @@ button.explorer {
 	font: normal 16px 'muli';
 	color: white;
 	cursor: pointer;
+	text-transform: uppercase;
 }
 
 div.big-top h4,
@@ -176,6 +178,8 @@ div.big-top h5 {
 	font-family: 'muli';
 	color: white;
 	margin-left: 40px;
+	text-transform: uppercase;
+	
 }
 
 div.big-top-left h4 {
@@ -200,11 +204,14 @@ div.button_proj {
 	font: normal 16px 'muli';
 }
 
+div.middle {
+	padding-bottom: 50px;
+}
+
 div.center {
 	width: 1000px;
 	margin: 0 auto;
 	background: white;
-	min-height: 400px;
 }
 
 
@@ -219,14 +226,16 @@ div.icon1,
 div.icon2 {
 	width: 48px;
 	height: 48px;
+	
+	
 }
 
 div.icon1 {
-	background: url(../img/icon1.png) no-repeat;
+	background: url(..//img/icon1.png) no-repeat;
 }
 
 div.icon2 {
-	background: url(../img/icon2.png) no-repeat;
+	background: url(..//img/icon2.png) no-repeat;
 }
 
 div.duet h4,
@@ -238,6 +247,7 @@ div.solo h5 {
 
 div.duet h4 {
 	font-size: 12px;
+	text-transform: uppercase;
 }
 
 div.duet h5,
@@ -255,27 +265,113 @@ div.q3, div.q4 {
 	width: 220px;
 	margin-right: 39px;
 	float: left;
-	height: 100px;
-	font-family: 'muli';
-	color: black;
-	text-align: center;
+	height: 60px;
+	font: normal 16px 'muli';
 }
 
 div.q4 {
 	margin-right: 0;
 }
 
-
-
-div.grey {
-	background: grey;
-	float:left;
-	height: 600;
-	width: 1280px;
+div.q1 {
+	background: url(..//img/behance.png) no-repeat center 35px #444;
+	padding-top: 80px;
+	text-align: center;
+}
+div.q2 {
+	background: url(..//img/facebook.png) no-repeat center 35px #444;
+	padding-top: 80px;
+	text-align: center;
+}
+div.q3 {
+	background: url(..//img/pinterest.png) no-repeat center 35px #444;
+	padding-top: 80px;
+	text-align: center;
+}
+div.q4 {
+	background: url(..//img/linkedin.png) no-repeat center 35px #444;
+	padding-top: 80px;
+	text-align: center;
 }
 
-div.red {
-	background: red;
+
+a div.q1, a div.q2, a div.q3, a div.q4 {
+	color: white;
 }
 
+div.small {
+	background: #444;
+}
 
+div.small-center {
+	padding-top: 105px;
+	width: 570px;
+	height: 185px;
+	margin: 155px auto;
+	background: url(..//img/place.png) no-repeat center 60px #f63c3c;
+	text-align: center;
+	font-family: 'muli';
+	color: white;
+}
+
+div.small-center h3 {
+	font-size: 14px;
+}
+
+div.small-center h2 {
+	font-size: 18px;
+}
+
+div.footer-left,
+div.footer-right,
+div.footer-center {
+	min-height: 400px;
+	float: left;
+	line-height: 20px;
+}
+
+div.footer-left,
+div.footer-right {
+	width: 250px;
+}
+
+div.footer-center {
+	width: 500px;
+	border-bottom: solid 1px #444;
+}
+
+div.footer div.header {
+	min-height: 80px;
+	width: 230px;
+	border-bottom: solid 2px #444;
+}
+
+div.footer div.header-center {
+	min-height: 80px;
+	width: 480px;
+	border-bottom: solid 2px #444;
+}
+
+div.footer h3 {
+	margin-top: 10px;
+}
+
+div.footer-center-left,
+div.footer-center-right {
+	float: left;
+	width: 250px;
+}
+
+div.ender-left,
+div.ender-right {
+	float: left;
+	width: 500px;
+}
+
+div.ender-left {
+	text-align: left;
+}
+
+div.ender-right {
+	text-align: right;
+}
